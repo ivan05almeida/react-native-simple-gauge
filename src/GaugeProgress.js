@@ -53,7 +53,7 @@ export default class GaugeProgress extends React.Component {
         {!!show &&
           <Surface
             width={size}
-            height={size}
+            height={size/2}
             >
             <Group rotation={rotation + cropDegree / 2} originX={size / 2} originY={size / 2}>
               <Shape d={backgroundPath}
